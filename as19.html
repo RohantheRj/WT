@@ -1,0 +1,51 @@
+19) Create a web page to display image on screenApply the following
+a. Display image in tiles
+b. Rotate image in clockwise and anticlockwise direction.
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initialscale=1.0" />
+ <title>slip No 19</title>
+ <style>
+ .image-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ }
+ .tile {
+ margin: 50px;
+ width: 400px;
+ }
+71
+ .tile1 {
+ margin: 50px;
+ width: 500px;
+ }
+ .rotate1 {
+ transform: rotate(30deg);
+ }
+ .rotate2 {
+ transform: rotate(-40deg);
+ }
+ .head {
+ margin: 50px;
+ }
+ </style>
+ </head>
+ <body>
+ <div class="image-container">
+ <div class="tile">
+ <h1 class="head">Clockwise Direction</h1>
+ <img class="rotate1" src="bird.jfif" alt="" height="400px"
+width="300px">
+72
+ </div>
+ <div class="tile1">
+ <h1 class="head">Anticlockwise Direction</h1>
+ <img class="rotate2" src="bird.jfif" alt="" height="400px"
+width="300px">
+ </div>
+ </div>
+ </body>
+</html>

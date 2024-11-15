@@ -1,0 +1,63 @@
+9) Write an HTML 5 program for student registration form for college
+admission. Use input type like search, email, date etc.
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Slip no 9</title>
+ <style>
+ form{
+ border:2px solid black;
+ margin:auto;
+ width:500px;
+ padding:15px;
+ margin-top:30px;
+ }
+ h2{
+ text-align:center;
+ }
+</style>
+</head>
+<body>
+ <form>
+32
+ <h2 >Student Registration </h2>
+ <label for="fname">Enter your name:</label>
+ <input type="text" id="fname" name="name" placeholder="Enter
+name">
+ <br>
+ <br>
+ <label for="email">Enter your Email id:</label>
+ <input type="email" id="email" name="email"
+placeholder="Enter email">
+ <br>
+ <br>
+ <label for="search">Search college dfferent Departments:</label>
+ <input type="search" id="search" name="search"
+placeholder="search">
+ <br>
+ <br>
+ <label for="nationality">choose your nationality:</label>
+ <input list="nation" id="nationality">
+ <datalist id="nation">
+ <option value="india">India</option>
+ <option value="america">America</option>
+ <option value="japan">japan</option>
+ <option value="germany">Germany</option>
+ </datalist>
+33
+ <br>
+ <br>
+ <label for="gender">Select your gender:</label>
+ <input type="radio" id="gender" name="gender">Male
+ <input type="radio" id="gender" name="gender">Female
+ <br>
+ <br>
+ <label for="date">Enter the date:</label>
+ <input type="date" id="date" name="date">
+ <br>
+ <br>
+ <input type="reset" value="Reset">
+ <input type="submit" value="submit">
+ </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+7) Create a 3D text, apply appropriate font, style, color. Use : Hover in
+the style selector so that the 3D effects appear only when you hover over
+the text.
+<!DOCTYPE html>
+<html>
+<head>
+<title>Slip No 7</title>
+<style>
+body {
+background-color: #f2f2f2;
+}
+.three-d-text {
+font-size: 50px;
+font-weight: bold;
+color: #000;
+transition: all 0.5s ease;
+transform: rotateY(0deg);
+transform-style: preserve-3d;
+text-align: center;
+margin-top: 200px;
+}
+.three-d-text:hover {
+transform: rotateY(30deg);
+27
+text-shadow: 2px 2px 5px black;
+color: #fff;
+background-color:greenyellow;
+}
+</style>
+</head>
+<body>
+<h1 class="three-d-text"> Advanced Database And Web
+Technology...</h1>
+</body>
+</html>

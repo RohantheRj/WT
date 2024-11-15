@@ -1,0 +1,103 @@
+1) Write the HTML5 code for generating the form as shown below.
+Apply the internal CSS to the following form to change the font size of
+the heading to 6pt and change the color to red and also change the
+background color to yellow.
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Slip No 1</title>
+ <style>
+ form{
+ background-color:aqua;
+ padding:5px;
+ width:500px;
+ height:auto;
+ margin:auto;
+ }
+ .class1{
+ padding:15px;
+ }
+ .class2{
+ width:180px;
+ }
+5
+ h2{
+ text-align:center;
+ font-size:6pt;
+ background-color:yellow;
+ color:red;
+ width:500px;
+ height:auto;
+ margin:auto;
+ text-decoration:underline;
+ margin-bottom:10px;
+ }
+ .clear{
+ background-color:#145cd8;
+ color:white;
+ border:none;
+ padding:2px;
+ width:65px;
+ margin-left:25px;
+ margin-bottom:10px;
+ border-radius:2px;
+ }
+ .submit{
+ background-color:green;
+6
+ color:white;
+ border:none;
+ padding:2px;
+ width:65px;
+ margin-left:70px;
+ border-radius:2px;
+ }
+ </style>
+ </head>
+ <body>
+ <h2>Project management</h2>
+ <form>
+ <label for="pname" class="class1">Project name</label>
+ <input type="text" id="pname" name="pname"
+placeholder="project name"class="class2">
+ <br>
+ <br>
+ <label for="Assign" class="class1">Assigned to</label>
+ <select id="Assign"class="class2">
+ <option value=""selected hideen disabled></option>
+ <option value="krushna barhate">Krushna Barhate</option>
+ <option value="pratik dighe">Partik Dighe</option>
+ <option value="abhishek chechare">Abhishek
+Chechare</option>
+7
+ <option value="om desai">Om Desai</option>
+ </select>
+ <br>
+ <br>
+ <label for="Sdate" class="class1">Start Date</label>
+ <input type="date" id="Sdate" name="Sdate"
+placeholder="dd-mm-yyyy" class="class2">
+ <br>
+ <br>
+ <label for="Edate" class="class1">End Date</label>
+ <input type="date" id="Edate" name="Edate"
+palceholder="dd-mm-yyyy" class="class2">
+ <br>
+ <br>
+ <label for="priority" class="class1">Priority</label>
+ <input type="radio" id="priority" name="priority">High
+ <input type="radio" id="priority" name="priority">Average
+ <input type="radio" id="priority" name="priority">Low
+ <br>
+ <br>
+ <label for="Description" class="class1">Description</label>
+ <textarea name="Description" cols="25" rows=""
+id="Description"></textarea>
+ <br>
+8
+ <br>
+ <input type="submit" value="submit" class="submit">
+ <input type="reset" value="clear" class="clear">
+ </form>
+ </body>
+</html>
